@@ -46,9 +46,7 @@
   .center-header.active {
     display: block;
   }
-  .container-2{
-   margin-top: 60px;
-  }
+
  .hero-section {
     padding: 40px 16px 24px 16px;
     min-height: 60vh;
@@ -136,6 +134,12 @@ display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 20px;
+        text-align: center;
+}
+.social-icons{
+  text-align: center;
+  display: flex;
+        justify-content: center;
 }
 
 .contact-info{
@@ -161,7 +165,7 @@ display: flex;
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .button-section2{
           display: flex
@@ -395,5 +399,16 @@ flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+ .test-main{
+                  flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+      
+  }
+  .quote-box img{
+    margin: 0%;
+    margin-bottom: 10px;
   }
 }
