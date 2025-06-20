@@ -87,7 +87,7 @@
 
   .hero-section button,
   .button-section .view-all-button {
-    width: 100%;
+    /* width: 100%; */
     max-width: 220px;
     height: 40px;
   }
